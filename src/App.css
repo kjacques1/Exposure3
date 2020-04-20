@@ -1,0 +1,86 @@
+/* 
+From http://www.material-ui.com/css/main.css .
+Help we have the same style as in demo in http://www.material-ui.com/ :
+- Same AppBar's font style 
+*/
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+body {
+  font-size: 15px;
+  line-height: 24px; }
+
+/* content wrapper */
+.content {
+  margin: 5px; }
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin: 10px; } }
+
+@media screen and (min-width: 992px) {
+  .content {
+    margin: 20px; } }
+
+@media screen and (min-width: 1200px) {
+  .content {
+    margin: 30px; } }
+
+/* Report filter */
+.filter-criteria {
+  display: block; }
+
+.filter-duration {
+  cursor: pointer; }
+
+@media screen and (min-width: 768px) {
+  .filter-criteria {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #e6e6e6; }
+    .filter-criteria.first {
+      margin-left: inherit;
+      margin-right: inherit;
+      border-left: inherit;
+      border-right: inherit;
+      padding-left: inherit; } }
+
+.report .row2 {
+  margin-top: 50px; }
+
+/* Tag list dialog */
+.container-add-lang {
+  display: inline-block; }
+
+.container-add-lang-popup .list {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important; }
+  .container-add-lang-popup .list.first {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important; }
+
+.container-add-lang-popup .list-item {
+  padding-top: 5px !important;
+  padding-right: 5px !important;
+  padding-bottom: 5px !important; }
+  .container-add-lang-popup .list-item > div > div {
+    padding-top: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 5px !important; }
+    .container-add-lang-popup .list-item > div > div .material-icons {
+      font-size: 13px !important;
+      margin: auto !important;
+      top: 7px !important; }
+
+.container-add-lang-popup .input-filter {
+  height: 30px; }
+
+.time-entry-input-form .container-add-lang {
+  margin-left: 10px; }
